@@ -5,8 +5,57 @@
     outline: none;
 }
 body{
-    background-color: #610C18;
+    background-color: #DDDDDD;
 }
 .header{
     background-color: #376340;
+}
+
+/* =========================== informações ================  */
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info a{
+    background-color: #8D8DAABB;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 3px;
+
+}
+.info a:hover{
+    background-color:#F190B7BB ;
+    color: #fff;
+    text-transform: 0.5s ease;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card h1{
+    padding-bottom: 20px;
+}
+.cardForm form{
+    display: flex;
+    max-width: 1000px;
+
+}
+.cardForm input{
+    max-width: 400px;
+    height: 40px;
+
 }
