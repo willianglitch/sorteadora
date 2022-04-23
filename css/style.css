@@ -5,57 +5,52 @@
     outline: none;
 }
 body{
-    background-color: #DDDDDD;
-}
-.header{
-    background-color: #376340;
+    background-color: #222121;
 }
 
-/* =========================== informações ================  */
+.header{
+    background-color: #f5f5f5;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #964A96;
+}
+.header span{
+    padding-left: 15px;
+}
+
+/* ===================== section-munber 01 ================ */
 
 .container{
-    max-width: 1000px;
-    margin: auto;
-}
-.info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.info a{
-    background-color: #8D8DAABB;
+    height: 600px;
     padding: 20px;
-    text-decoration: none;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: gray;
-    border-radius: 3px;
-
-}
-.info a:hover{
-    background-color:#F190B7BB ;
-    color: #fff;
-    text-transform: 0.5s ease;
-}
-
-.card{
+    background-image: url(../assets/nietmann_fotografia_paraty90.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-.card h1{
-    padding-bottom: 20px;
+.numCard{
+    height: 250px;
+    width: 400px;
+    background-color: #222121BB;
+    border-radius: 0px 20px 20px 20px ;
+    box-sizing: border-box;
 }
-.cardForm form{
+.cardContainer ul{
+    list-style: none;
+    padding: 10px;
     display: flex;
-    max-width: 1000px;
-
 }
-.cardForm input{
-    max-width: 400px;
-    height: 40px;
-
+.cardContainer li{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #964A96BB;
 }
