@@ -34,23 +34,35 @@ body{
     align-items: center;
 }
 .numCard{
-    height: 250px;
+    height: 270px;
     width: 400px;
     background-color: #222121BB;
     border-radius: 0px 20px 20px 20px ;
     box-sizing: border-box;
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: #f5f5f5;
+}
 .cardContainer ul{
     list-style: none;
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 .cardContainer li{
-    margin-left: 10px;
-    display: flex;
+    margin: 5px;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     border-radius: 50%;
     padding: 5px;
     background-color: #964A96BB;
+    cursor: pointer;
+}
+.cardContainer li:hover{
+        background-color: #f5f5f5;
 }
