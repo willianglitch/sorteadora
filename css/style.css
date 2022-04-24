@@ -24,7 +24,7 @@ body{
 /* ===================== section-munber 01 ================ */
 
 .container{
-    height: 600px;
+    height: 565px;
     padding: 20px;
     background-image: url(../assets/nietmann_fotografia_paraty90.jpg);
     background-repeat: no-repeat;
@@ -32,6 +32,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .Card{
     height: 270px;
