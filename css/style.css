@@ -32,7 +32,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .Card{
     height: 270px;
@@ -90,4 +90,30 @@ body{
     padding-bottom: 10px;
     font-size: 20px;
     color: white;
+}
+
+/* ============================= container-02 ============================== */
+
+.container-02{
+    height: 550px;
+    background-color: pink;
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 50px;
+}
+
+.Card-03 img{
+    height: 550px;
+    padding-right: 80px;
+}
+.cardConteúdo{
+    height: 400px;
+    width: 350px;
+    padding: 15px;
+    margin-top: 75px;
+    background-color: #f5f5f5BB;
+    border-radius: 0% 5% 50% 0%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
 }
