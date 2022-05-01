@@ -135,9 +135,12 @@ body{
     display: flex;
     justify-content: center;
    
+}
 .cardConteúdo button{
+    width: 70%;
     height: 50px;
     border: none;
+    outline: none;
     font-size: 25px;
     background-image: linear-gradient(to left, #582a58, #f583f5, #8b6d8b );
     border-radius: 30px;
