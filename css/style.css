@@ -114,6 +114,32 @@ body{
     background-color: #f5f5f5BB;
     border-radius: 0% 5% 50% 0%;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
+    box-shadow: 10px 10px 10px #421042;
+}
+.cardConteúdo h2{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #582a58;
+}
+.cardConteúdo p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 14px;
+    font-size: 18px;
+    color:#421042;
+}
+.but{
+    display: flex;
+    justify-content: center;
+   
+.cardConteúdo button{
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    background-image: linear-gradient(to left, #582a58, #f583f5, #8b6d8b );
+    border-radius: 30px;
+    
 }
