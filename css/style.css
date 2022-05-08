@@ -143,6 +143,59 @@ body{
     outline: none;
     font-size: 25px;
     background-image: linear-gradient(to left, #582a58, #f583f5, #8b6d8b );
-    border-radius: 30px;
-    
+    border-radius: 30px;    
+}
+
+/* ==================================titleSorteio========================== */
+
+.titleSorteio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageSorteio img{
+    height: 200px;
+}
+.title-02 p{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #964A96;
+    text-transform: uppercase;
+}
+
+/* ===================================inputAdicionar========================================= */
+
+.inputAdicionar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.inputAdicionar input{
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 55%;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+}
+.inputAdicionar button{
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #f5f5f5BB;
+    width: 80px;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 15px;
+    box-sizing: border-box;
+
+}
+.inputAdicionar button:hover{
+    background-color: #8b6d8b;
+    color: #f5f5f5;
+    transition: background,color ease 2.0s;
 }
