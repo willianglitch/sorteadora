@@ -199,3 +199,14 @@ body{
     color: #f5f5f5;
     transition: background,color ease 2.0s;
 }
+
+.nomesParticipantes{
+    height: 820px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 64px;
+    background-image: url(../assets/mary.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
