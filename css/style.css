@@ -201,12 +201,18 @@ body{
 }
 
 .nomesParticipantes{
-    height: 820px;
-    max-width: 1200px;
+    height: 100%;
     margin: auto;
     border-radius: 64px;
-    background-image: url(../assets/mary.jfif);
+    background-image: url(../assets/pngtree-a-cluster-of-white-tokyo-cherry-blossoms-image_453636.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    background-position: center center;
+    margin-bottom: 100px;
+}
+.nomesParticipantes img{
+    /* max-width: 1000px;
+    height: 600px; */
+    margin: 10px;
+    border-radius: 64px;
 }
